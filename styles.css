@@ -1,0 +1,89 @@
+h1, h2, h3 {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 1px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+body, .body1, .body2, .body3{
+  margin: 10px 40px;
+  text-align:justify; 
+  color:rgb(23, 10, 10);
+}
+
+.body1 {
+  background-color: rgb(255, 247, 162);
+}
+
+.body2 {
+  background-color: rgb(255, 199, 179);
+  border-color: rgb(232, 135, 99);
+}
+
+.body3 {
+  background-color: rgb(179, 255, 221);
+  border-color: rgb(103, 193, 153);
+}
+
+.body2, .body3 {
+  border-style: groove;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.bio {
+  padding: 10px 13px;
+  margin: 0px;
+}
+
+ul {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px;
+}
+.profile-photo {
+  max-width: 150px;
+  max-height: 150px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top: 20px;
+  border-radius:12px;
+}
+
+.profile-photo-caption {
+  color:rgb(86, 64, 10);
+  font-family: 'Share';
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.talapaw-info-table {
+  border-spacing: 0px;
+  margin: auto;
+  table-layout:fixed
+}
+
+.talapaw-image {
+  /*
+  display: flex;
+  justify-items: center;*/
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+hr {
+  background-color: black;
+  border-color: transparent;
+  border-style:groove;
+}
+
+p, ol {
+  font-family: 'Share';
+}
